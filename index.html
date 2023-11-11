@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+
+    <title>Everything about me</title>
+</head>
+<body>
+<div class="container">
+    <div class="image"><img src="./sidebanner.png" alt="back to school form round logo"></div>
+
+    <div class="backform">
+        <img class="banner" src="./banner.png" alt="Everything about me">
+    <p class="welcome"> Welcome back to another school year! <br>How about fill this form so your new teacher can get to know you a little bit?</p>
+        
+    <img class="scribble" src="./scribble.png">
+
+    <div class="fill">
+    <form>
+        <fieldset class="group">
+
+            <div class="camp">
+                <label for="name">My name is</label>
+                <input type="text" name="name" id="name">
+                
+                <label for="age">and I'm a</label>
+                <input type="number" name="age" id="age">
+                <label> years old</label>
+                
+                <input  type="radio" name="genre" value=" boy">  <label for="genre">boy</label>
+                <input  type="radio" name="genre" value=" girl"> <label for="genre">girl</label>
+            </div>
+
+            <div class="camp">
+                <label>My favorite color is</label>
+                <input type="text" name="color" id="color">
+                <label for="birthday"> and my birthday is:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <div class="camp">
+                <label>My hoobies are</label> <br>
+                <input type="text" name="name" id="name"><br>
+                <input type="text" name="name" id="name"><br>
+                <input type="text" name="name" id="name">
+                </div>
+
+            
+            <div class="camp">
+
+                <label>I'm </label>
+                <input type="checkbox" name="adjective1" id="adjective1" value="kind">
+                <label for="adjective1">kind</label>
+                <input type="checkbox" name="adjective2" id="adjective2" value="respectful">
+                <label for="adjective2">respectful</label>
+                <input type="checkbox" name="adjective3" id="adjective3" value="supportive">
+                <label for="adjective3">supportive</label>
+                <input type="checkbox" name="adjective4" id="adjective4" value="honest">
+                <label for="adjective4">honest</label>
+                <input type="checkbox" name="adjective5" id="adjective5" value="patient">
+                <label for="adjective5">patient</label>
+                <input type="checkbox" name="adjective6" id="adjective6" value="playful">
+                <label for="adjective6">playful</label>
+                <input type="checkbox" name="adjective7" id="adjective7" value="mindful">
+                <label for="adjective7">mindful</label>
+                <br>
+                <label>with my friends and teacher.</label>
+
+            </div>
+            <div class="camp">
+                <label>Once a graduate I want to be a</label>
+                <input type="text" name="name" id="name"><br>
+
+            <div class="camp">
+                <br>
+                <label>I'm feeling </label>
+                <select id="feelings">
+                    <option selected disabled value="">select </option>
+                    <option>happy</option>
+                    <option>anxious</option>
+                    <option>sad</option>
+                    <option>scared</option>
+                    <option>excited</option> 
+                </select><label>  to start a new year at school. </label>
+            </div>
+
+            <div class="camp">
+                <label>To my new teacher, I'd like to say... </label><br>
+                <textarea id="w3review" name="w3review" rows="5" cols="85">
+                    
+                    </textarea>
+        </fieldset>
+
+        <button class="button" type="submit">Send</button>
+    </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

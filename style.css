@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+body{ 
+width: 100%;
+height: auto;
+font-family: 'Dosis', sans-serif;
+justify-content: center;}
+
+
+.container {width: 100%;
+height: 100vh;
+display: flex;
+}
+
+.container .image img{
+    height: 300px;
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(10px 10px 10px hsl(76deg 0% 0% /0.5))
+    
+    
+}
+
+
+.container .image {
+    width: 30%;
+    height: auto;
+    background-image: url("./back_to_school_vector_seamless_black_and_white_patterns_generated.png");
+    display: flex;
+    filter: drop-shadow(5px 5px 10px hsl(76deg 0% 0% /0.5));
+    border-right: solid 3px white;
+    
+}
+
+.container .backform {
+    width: 70%;
+    height: auto;
+    background-color: #3b3b3b;
+    opacity: 1;
+    background-image:  linear-gradient(#3f3e3e 0.7000000000000001px, transparent 0.7000000000000001px), linear-gradient(to right, #3f3e3e 0.7000000000000001px, #3b3b3b 0.7000000000000001px);
+    background-size: 14px 14px;
+    overflow:auto;
+    padding: 30px;
+
+}
+
+.container .backform .fill{
+    padding-top: 0px;
+    padding-left: 150px;
+
+}
+
+.container .backform img {
+    height: 100px;
+    position: block;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .backform .scribble {
+    height: 40px;
+    margin-top: 5px;}
+
+.container .backform p {
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+fieldset{
+    border: 0;
+    font-size: larger;
+}
+
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.camp {
+    margin-bottom: 1em;
+}
+
+.camp label{
+    margin-bottom: 0.2em;
+    color: white;
+    display:inline-block;
+}
+
+.button {
+    background-color: #1d1d1d; 
+    border: none;
+     color: white;
+    padding: 10px 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid white;}
+
+
+
+@media (max-width: 1040px){
+    .container .image img{
+        height: 250px;
+        position: relative;
+        display: flex;}
+
+        .container .backform .fill{
+            padding-left: 13px;}
+
+    textarea {
+    height: 100px;
+    width: 100%;
+                }
+       
+}
+
+@media (max-width: 850px){
+
+    .container .image img{
+        height: 200px;
+        position: relative;
+        display: flex;}
+    
+        .container .backform img {
+            height: 75px;
+            position: relative;
+            display: block;}
+
+        .container .backform .scribble {
+                height: 30px;} 
+                
+        .container .backform .fill{
+                    padding-left: 10px;}
+
+    textarea {
+    height: 100px;
+    width: 100%;
+                    }
+        }
+
+
+        @media (max-width: 680px){
+            .container .image img{
+                display: none;}
+        
+            .container .backform p {
+             position: relative;
+            font-size: 1rem;}
+        
+            .container .backform .scribble {
+                        height: 20px;}   
+                        
+            .fill form{
+                font-size: 12px;
+                flex-direction: column;
+            }
+        
+            .button { 
+                padding: 5px 10px;
+                font-size: 13px;}
+        
+            textarea {
+                height: 50px;
+                width: 100%;
+            }
+        
+
+        }
+        
+@media (max-width: 410px){
+    
+
+    textarea {
+        height: 50px;
+        width: 100%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+}
+
